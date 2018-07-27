@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30110.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinApp", "WinApp", "{5A7B97A4-061F-4E2F-A42D-AF341FE2DBAB}"
 EndProject
@@ -11,42 +11,42 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChangePassword", "WinApp\Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenTableLayout", "WinApp\GenTableLayout\GenTableLayout.csproj", "{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCaller", "WinApp\ApiCaller\ApiCaller.csproj", "{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 4
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://maduka.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = WinApp\\ChangePassword\\ChangePassword.csproj
-		SccProjectTopLevelParentUniqueName1 = maduka.Utility.sln
-		SccProjectName1 = WinApp/ChangePassword
-		SccLocalPath1 = WinApp\\ChangePassword
-		SccProjectUniqueName2 = WinApp\\GenTableLayout\\GenTableLayout.csproj
-		SccProjectTopLevelParentUniqueName2 = maduka.Utility.sln
-		SccProjectName2 = WinApp/GenTableLayout
-		SccLocalPath2 = WinApp\\GenTableLayout
-		SccProjectUniqueName3 = WinApp\\WindowsAccountGroup\\WindowsAccountGroup.csproj
-		SccProjectTopLevelParentUniqueName3 = maduka.Utility.sln
-		SccProjectName3 = WinApp/WindowsAccountGroup
-		SccLocalPath3 = WinApp\\WindowsAccountGroup
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8465174-C6AC-4405-9325-885B5D0B6306}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{F8465174-C6AC-4405-9325-885B5D0B6306}.Debug|x86.ActiveCfg = Debug|x86
 		{F8465174-C6AC-4405-9325-885B5D0B6306}.Debug|x86.Build.0 = Debug|x86
+		{F8465174-C6AC-4405-9325-885B5D0B6306}.Release|Any CPU.ActiveCfg = Release|x86
 		{F8465174-C6AC-4405-9325-885B5D0B6306}.Release|x86.ActiveCfg = Release|x86
 		{F8465174-C6AC-4405-9325-885B5D0B6306}.Release|x86.Build.0 = Release|x86
+		{829A199E-72ED-4241-A236-46C806E315A4}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{829A199E-72ED-4241-A236-46C806E315A4}.Debug|x86.ActiveCfg = Debug|x86
 		{829A199E-72ED-4241-A236-46C806E315A4}.Debug|x86.Build.0 = Debug|x86
+		{829A199E-72ED-4241-A236-46C806E315A4}.Release|Any CPU.ActiveCfg = Release|x86
 		{829A199E-72ED-4241-A236-46C806E315A4}.Release|x86.ActiveCfg = Release|x86
 		{829A199E-72ED-4241-A236-46C806E315A4}.Release|x86.Build.0 = Release|x86
+		{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7}.Debug|Any CPU.ActiveCfg = Debug|x86
 		{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7}.Debug|x86.ActiveCfg = Debug|x86
 		{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7}.Debug|x86.Build.0 = Debug|x86
+		{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7}.Release|Any CPU.ActiveCfg = Release|x86
 		{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7}.Release|x86.ActiveCfg = Release|x86
 		{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7}.Release|x86.Build.0 = Release|x86
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Debug|x86.Build.0 = Debug|Any CPU
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Release|x86.ActiveCfg = Release|Any CPU
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,5 +55,9 @@ Global
 		{F8465174-C6AC-4405-9325-885B5D0B6306} = {5A7B97A4-061F-4E2F-A42D-AF341FE2DBAB}
 		{829A199E-72ED-4241-A236-46C806E315A4} = {5A7B97A4-061F-4E2F-A42D-AF341FE2DBAB}
 		{6C5C0CDE-CA96-4323-9EBB-A97CA9411BD7} = {5A7B97A4-061F-4E2F-A42D-AF341FE2DBAB}
+		{1B08B9D2-78D5-4E9D-B344-EBC7104DD197} = {5A7B97A4-061F-4E2F-A42D-AF341FE2DBAB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC4A6F6B-7E50-4B58-A99A-D8AE4EB85A7F}
 	EndGlobalSection
 EndGlobal
